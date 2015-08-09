@@ -10,7 +10,7 @@ library(lubridate)
 # 16/12/2006;17:26:00;5.374;0.498;233.290;23.000;0.000;2.000;17.000
 
 # Compute number of rows we want to skip (from beginning to 2007-02-01)
-init_date = dmy_hms("16/12/2006 17:24:00")
+init_date = dmy_hms("16/12/2006 17:23:00")
 print(init_date)
 
 start_date = dmy_hms("01/02/2007 00:00:00")
